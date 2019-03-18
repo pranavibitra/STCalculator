@@ -7,6 +7,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class Caltest1 {
+
 	private static Cal1 calc;
 	
 	@BeforeClass
