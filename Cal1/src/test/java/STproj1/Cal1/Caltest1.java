@@ -28,4 +28,8 @@ public class Caltest1 {
 	public void testmul() {
 		assertEquals(36,calc.mul(4,9));
 	}
+	@Test
+	public void testdiv() {
+		assertEquals(2,calc.div(10,5));
+	}
 }
