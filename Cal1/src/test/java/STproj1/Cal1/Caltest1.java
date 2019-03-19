@@ -1,4 +1,4 @@
-package STproj1.Cal1;
+ package STproj1.Cal1;
 
 import static org.junit.Assert.*;
 
@@ -23,5 +23,9 @@ public class Caltest1 {
 	@Test
 	public void testsub() {
 		assertEquals(5,calc.sub(7,2));
+	}
+	@Test
+	public void testmul() {
+		assertEquals(24,calc.mul(4,6));
 	}
 }

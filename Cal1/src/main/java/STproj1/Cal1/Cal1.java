@@ -10,4 +10,7 @@ public class Cal1 {
 	public int sub(int c,int d) {
 	    return c-d;
 	}
+	public int mul(int e,int f) {
+		return e*f;
+	}
 }
