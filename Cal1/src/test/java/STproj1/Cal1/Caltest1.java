@@ -26,6 +26,6 @@ public class Caltest1 {
 	}
 	@Test
 	public void testmul() {
-		assertEquals(24,calc.mul(4,6));
+		assertEquals(36,calc.mul(4,9));
 	}
 }
