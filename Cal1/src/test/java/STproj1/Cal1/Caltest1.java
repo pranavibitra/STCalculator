@@ -18,7 +18,7 @@ public class Caltest1 {
 	
 	@Test
 	public void testadd() {
-		assertEquals(5,calc.add(3, 2));
+		assertEquals(7,calc.add(3, 4));
 	}
 
 }
