@@ -20,5 +20,8 @@ public class Caltest1 {
 	public void testadd() {
 		assertEquals(8,calc.add(3, 5));
 	}
-
+	@Test
+	public void testsub() {
+		assertEquals(5,calc.sub(7,2));
+	}
 }
